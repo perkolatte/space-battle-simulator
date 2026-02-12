@@ -1,3 +1,5 @@
+import "../styles/GameState.css";
+
 function GameState({ message }) {
   return (
     <div
