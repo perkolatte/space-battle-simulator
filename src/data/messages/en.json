@@ -1,99 +1,87 @@
-export const messages = {
-  winClean: [
+{
+  "winClean": [
     "The enemy vessel comes apart without ceremony. Your neural link barely registered the engagement—augmented reflexes handled the targeting before you consciously chose to fire. You sit alone in your cockpit, untouched, and wonder if this is what they meant when they said the upgrades would make you more than human. It doesn't feel like more.",
     "Their ship fractures. Silent. Perfect. Your targeting wetware painted every weak point before their pilot even powered weapons. You watch the debris drift through your canopy and feel nothing. The combat implants are good at that. Feeling nothing.",
-    "Flawless execution. Your vessel hums, pristine, while their wreckage tumbles into the black. The engagement logs show sub-second reaction times—faster than organic thought allows. You won before they started. The machine threaded through your nervous system made sure of that.",
+    "Flawless execution. Your vessel hums, pristine, while their wreckage tumbles into the black. The engagement logs show sub-second reaction times—faster than organic thought allows. You won before they started. The machine threaded through your nervous system made sure of that."
   ],
-  winBarely: [
+  "winBarely": [
     "Their ship is gone. Yours is a ruin around you—Loss of pressurization in three compartments. Blood in your mouth, your own. The cockpit autodoc is already flooding your veins with repair nanites, knitting tissue you can feel tearing. You survived. The machine keeps your body going whether you want it to or not.",
     "You drift through the aftermath, hull cracked open to vacuum. Your biosynthetic lungs keep working where organic ones would have burst. The enemy pilot is dead. You're alive—if you can call this living. The backup implant behind your ear is already recording this moment. Another death avoided. Another memory you can never lose.",
-    "Your ship is a coffin that hasn't quite closed. Systems stuttering, atmosphere thin. The neural dampeners suppress the pain but not the knowledge of how close you came. Somewhere on a station far from here, a body is growing in a vat with your name on it. It wasn't needed today. Today you get to keep this one.",
+    "Your ship is a coffin that hasn't quite closed. Systems stuttering, atmosphere thin. The neural dampeners suppress the pain but not the knowledge of how close you came. Somewhere on a station far from here, a body is growing in a vat with your name on it. It wasn't needed today. Today you get to keep this one."
   ],
-  winNormal: [
+  "winNormal": [
     "Enemy vessel silenced. Their hull splits open and the atmosphere inside crystallizes instantly in the vacuum. Fragments tumble past your canopy, sharp and silent. Your hands tremble on the flight stick—the adrenaline shunt in your spine slowly dialing back. Victory tastes like copper and recycled air. Your body remembers dying even when you haven't.",
     "They're done. The kill confirmation scrolls across your neural display. Your ship is damaged but flying. Somewhere in the wreckage, the enemy pilot's backup implant might still be intact—their mind-state pulsing in the dark, waiting for retrieval. Another version of them waking up on a station, remembering this defeat. You try not to think about what it means that death isn't final anymore.",
-    "The enemy dies, and you watch it happen through augmented eyes that won't let you look away. Your combat recording captures every detail for post-mission review. You won. Your hands are shaking on the controls. The machine laced through your brain logs that too.",
+    "The enemy dies, and you watch it happen through augmented eyes that won't let you look away. Your combat recording captures every detail for post-mission review. You won. Your hands are shaking on the controls. The machine laced through your brain logs that too."
   ],
-  loss: [
+  "loss": [
     "Hull breach. The cold hits you before the pain does. Your backup implant fires its final transmission as the ship comes apart around you. You feel your mind-state compress, copy, transmit to a faraway station. Somewhere safe, a new body is being printed with your name on it. You wake up in it with the memory of dying. They say you get used to it. They're lying.",
     "The killing blow tears through the cockpit. Your body fails. The neural implant keeps recording for eleven more seconds—enough to feel the vacuum, the cold, the nothing. Then the signal fires, screaming across lightyears to a resurrection facility. Continuity of consciousness, they call it. You call it dying with a receipt. The next you remembers this. Every detail.",
-    "Systems critical. Then systems gone. Your body fails but the implant doesn't—the mind-state backup pulses out through the wreckage, carrying everything you are into the dark. Lightyears away, you wake in a medical bay, naked and screaming, with the full memory of decompression. They promised immortality. They never mentioned it tastes like this.",
+    "Systems critical. Then systems gone. Your body fails but the implant doesn't—the mind-state backup pulses out through the wreckage, carrying everything you are into the dark. Lightyears away, you wake in a medical bay, naked and screaming, with the full memory of decompression. They promised immortality. They never mentioned it tastes like this."
   ],
-  draw: [
+  "draw": [
     "Mutual kill. Both ships rupture. In the last milliseconds, your backup implant and theirs fire simultaneously—two dying pilots uploading into the black. You both wake up in new bodies at stations far from here, remembering each other's faces in that final moment. Remembering dying together. Some bonds can't be broken, even by resurrection.",
     "You trade final volleys. Both ships die. The void takes everything—hull, atmosphere, flesh. But not the data. Never the data. Somewhere, two resurrection facilities activate. Two bodies grow. Two sets of lungs fill. Two pilots wake up with the same terrible memory. Nobody won. Everybody died. And nobody stays dead.",
-    "Double kill. Your mind fragments as the ship dissolves around you. The backup fires, corrupted, partial. Lightyears away, you wake up missing pieces—hours, maybe days. The enemy pilot does too. Two incomplete people, rebuilt from bad saves, carrying the ghost of a battle neither of them properly remembers finishing.",
+    "Double kill. Your mind fragments as the ship dissolves around you. The backup fires, corrupted, partial. Lightyears away, you wake up missing pieces—hours, maybe days. The enemy pilot does too. Two incomplete people, rebuilt from bad saves, carrying the ghost of a battle neither of them properly remembers finishing."
   ],
-  tideChanged: [
+  "tideChanged": [
     "Something shifts in the engagement. Your threat assessment rewrites itself—the neural overlay flooding with new trajectories, new possibilities. The pressure lifts. You feel the combat wetware in your spine recalculating, and for the first time, the numbers favor you.",
     "The momentum breaks. Your augmented reflexes catch the opening before your conscious mind does—hands moving on the controls, weapons tracking, the machine in your nervous system three steps ahead. You're not dying anymore. Now they are.",
-    "A reversal. The autodoc pumps something warm into your bloodstream and for a moment—just a moment—you close your eyes. When you open them the world is sharper, the damage reports stabilizing. You think of the other pilot watching their advantage slip away. You know that feeling. You've been on that side. But you can't afford compassion at closing range.",
+    "A reversal. The autodoc pumps something warm into your bloodstream and for a moment—just a moment—you close your eyes. When you open them the world is sharper, the damage reports stabilizing. You think of the other pilot watching their advantage slip away. You know that feeling. You've been on that side. But you can't afford compassion at closing range."
   ],
-  bothLow: [
+  "bothLow": [
     "Both vessels gutted. Your damage readout is a wall of red. Atmosphere thin. The cockpit autodoc ran out of repair nanites two hits ago. Across the void, the enemy ship is just as broken—you can see their hull flexing, bleeding light from a dozen wounds. One more exchange. That's all either pilot has left.",
     "Critical across the board. Your biosynthetic organs are compensating for the ones that failed. The enemy vessel is a mirror of yours—shattered, sparking, dying. You wonder if the other pilot is scared. You are. The augmentations strip away almost everything, but they never quite manage to take the fear.",
-    "Both ships are dying. Both pilots inside them. Your neural dampeners are maxed out, suppressing pain signals that would otherwise shut you down. The other pilot must be doing the same. Two augmented people, too stubborn to stop. One more hit ends it.",
+    "Both ships are dying. Both pilots inside them. Your neural dampeners are maxed out, suppressing pain signals that would otherwise shut you down. The other pilot must be doing the same. Two augmented people, too stubborn to stop. One more hit ends it."
   ],
-  bothMid: [
+  "bothMid": [
     "You circle each other, scarred and wary. Your ship's damage is manageable—the self-repair systems are keeping up, barely. The enemy vessel is in the same shape. You can see it in how they fly, cautious, conserving. Two wounded pilots measuring each other in the dark.",
     "Attrition. Your systems degrade. Theirs too. The combat overlay paints both ships in amber—damaged, functional, dangerous. Neither pilot has committed fully. Neither can afford to be wrong.",
-    "The battle grinds on. Your biosystems ache with sustained stress—the augmentations were designed for bursts, not endurance. You catch yourself wondering what the other pilot was doing before this. If they had somewhere to be. Someone waiting. The thought passes. The machine in your spine won't let you hold it.",
+    "The battle grinds on. Your biosystems ache with sustained stress—the augmentations were designed for bursts, not endurance. You catch yourself wondering what the other pilot was doing before this. If they had somewhere to be. Someone waiting. The thought passes. The machine in your spine won't let you hold it."
   ],
-  bothFull: [
+  "bothFull": [
     "Both vessels intact. Full power. Your neural link hums with targeting data, your augmented hands steady on the flight stick. The enemy is out there, identical in readiness. Two machines, each carrying a pilot who used to be purely human. The silence before the real killing starts.",
     "Everything is primed. Your combat wetware cycles through engagement scenarios faster than thought. You try to slow your breathing but the machine has already taken over—heart rate locked, hands steady, pupils dilated to specs you didn't choose. Across the void, another pilot sits in the same forced calm. Two people who gave up parts of themselves for this. Waiting for the first mistake.",
-    "Undamaged. Armed. Ready. You feel the implants in your spine warming up, the targeting overlay sharpening. The other pilot feels the same—you know because you've been in their seat. Same augments. Same training. Same quiet dread before the firing starts.",
+    "Undamaged. Armed. Ready. You feel the implants in your spine warming up, the targeting overlay sharpening. The other pilot feels the same—you know because you've been in their seat. Same augments. Same training. Same quiet dread before the firing starts."
   ],
-  playerFullEnemyHigh: [
+  "playerFullEnemyHigh": [
     "Your ship is untouched. Pristine. The enemy isn't—your volley grazed them, a scratch across their hull the self-repair is already closing. Trivial damage. But you saw the hit register on your targeting overlay and the combat wetware hummed with satisfaction. You can reach them. They haven't reached you.",
     "First blood, and it's theirs. A nick in the enemy's hull, barely worth logging. But your neural link catalogued the hit—angle, velocity, point of impact. Data. The enemy pilot felt it through their dampeners, a spike of awareness that said: they're accurate. Your ship carries no such reminder.",
-    "You're untouched. They're not. The asymmetry is small—a graze, a scar the repair systems are already erasing. But the targeting overlay doesn't forget. Neither does the combat wetware threading through your nervous system. You drew first. That matters.",
+    "You're untouched. They're not. The asymmetry is small—a graze, a scar the repair systems are already erasing. But the targeting overlay doesn't forget. Neither does the combat wetware threading through your nervous system. You drew first. That matters."
   ],
-  enemyFullPlayerHigh: [
+  "enemyFullPlayerHigh": [
     "They tagged you. A graze along the hull—self-repair already sealing it, neural dampeners suppressing the phantom ache. Trivial. But the enemy ship is pristine, untouched, and their pilot knows it. They drew first. Your combat wetware is already recalculating.",
     "Your ship carries a scratch it didn't have a moment ago. The enemy's hull is clean. You barely felt the hit through the dampeners, but you feel something else—a smallness, familiar, the particular loneliness of being the one who's wounded when the other isn't. The targeting overlay shows the asymmetry in cold data. They reached you first.",
-    "First blood, and it's yours. A nick—nothing the self-repair can't handle, nothing the biosystems even flagged. But the enemy pilot saw the hit confirm on their neural display. They know they can touch you. Your ship hums around you, almost perfect, not quite.",
+    "First blood, and it's yours. A nick—nothing the self-repair can't handle, nothing the biosystems even flagged. But the enemy pilot saw the hit confirm on their neural display. They know they can touch you. Your ship hums around you, almost perfect, not quite."
   ],
-  bothHigh: [
+  "bothHigh": [
     "Both ships still strong, but the perfection is gone. Minor hits on both sides—nothing critical, nothing the self-repair can't handle. But you felt each one through the neural link. Small reminders that the other pilot's aim is good. That this won't be easy.",
     "Light contact, both vessels. Your hull integrity reads high but not pristine. The enemy's the same. Your combat wetware has enough data now—their firing patterns, their evasion tendencies. They have yours too. The opening moves are over.",
-    "Both ships bloodied but barely. The damage reports are short, manageable. There's a strange intimacy to it—trading fire at this range, learning each other's rhythms. The way they dodge, the patterns in their aggression. Your neural link builds a profile of the other pilot and you realize you're starting to understand them. It won't stop you from killing them.",
+    "Both ships bloodied but barely. The damage reports are short, manageable. There's a strange intimacy to it—trading fire at this range, learning each other's rhythms. The way they dodge, the patterns in their aggression. Your neural link builds a profile of the other pilot and you realize you're starting to understand them. It won't stop you from killing them."
   ],
-  bothScratched: [
+  "bothScratched": [
     "First blood on both sides. Minor damage—cosmetic, mostly. But you felt it. The neural link translated every impact into a dull ache behind your eyes, and for a moment you remembered what pain used to feel like before the dampeners. Raw. Honest. The other pilot felt the same. You're sure of it.",
     "Glancing blows exchanged. Your ship's self-repair systems are already sealing the minor breaches. Across the gap, the enemy's hull flickers with the same quick-healing glow. Two machines licking their wounds. Two pilots recalculating.",
-    "Light damage, both ships. Your biosystems barely registered the hits—the neural dampeners handled it before your conscious mind caught up. But the targeting overlay doesn't lie. You've both drawn blood. The real fight starts now.",
+    "Light damage, both ships. Your biosystems barely registered the hits—the neural dampeners handled it before your conscious mind caught up. But the targeting overlay doesn't lie. You've both drawn blood. The real fight starts now."
   ],
-  playerDominant: [
+  "playerDominant": [
     "The enemy vessel is breaking apart. Their maneuvering is sluggish—thrusters failing, power rerouting to systems that are already gone. You watch through your targeting overlay as their ship dies by degrees. Their pilot is still in there. Still alive. Still hoping the machine woven through their body can buy them one more second.",
     "They're finished. Their hull is compromised in six places, atmosphere venting in thin streams that freeze instantly. Your weapons lock effortlessly. The combat wetware has already calculated the killing blow. All you have to do is pull the trigger. You hesitate—not long, not long enough to matter. But you hesitate.",
-    "The enemy ship is a dying animal. You can read the damage signatures—power failures cascading, life support failing. A pilot is in there, feeling the cold creep in, watching systems go dark. Their backup implant is probably warming up, ready to fire a mind-state to whatever station holds their resurrection contract. One more volley.",
+    "The enemy ship is a dying animal. You can read the damage signatures—power failures cascading, life support failing. A pilot is in there, feeling the cold creep in, watching systems go dark. Their backup implant is probably warming up, ready to fire a mind-state to whatever station holds their resurrection contract. One more volley."
   ],
-  enemyDominant: [
+  "enemyDominant": [
     "Your ship is failing around you. The neural dampeners can't keep up with the pain signals anymore—damage too widespread, too fast. The enemy has you locked. Their weapons cycle and you feel each impact in your bones, in your augmented spine. Far away, a resurrection facility has your file on standby. Just in case.",
     "You're losing. The combat overlay has gone red—every scenario ends the same way. Your biosystems are compensating, pushing, burning reserves you pay for later. If there is a later. The backup implant is primed. The machine is ready to save what's left of you, fire it across the black to a body that's waiting.",
-    "Critical damage. Your body is running on augmentation alone—organic systems shutting down, synthetic ones taking over. The enemy presses their advantage. You can feel the backup signal building, the implant preparing to copy your mind out of this dying cockpit. Not yet. Not yet.",
+    "Critical damage. Your body is running on augmentation alone—organic systems shutting down, synthetic ones taking over. The enemy presses their advantage. You can feel the backup signal building, the implant preparing to copy your mind out of this dying cockpit. Not yet. Not yet."
   ],
-  playerAhead: [
+  "playerAhead": [
     "You're gaining. The enemy's responses are slower now—damaged thrusters, compromised sensors. Your targeting overlay paints weaknesses across their hull and part of you wishes it wouldn't. Wishes you couldn't see so clearly how fragile the other ship has become. But the advantage is real, and the machine in your nervous system doesn't care about mercy.",
     "Momentum shifts your way. The combat overlay brightens—trajectories improving, hit probability climbing. The enemy pilot is hurt, scrambling, trying to compensate. Your augmented reflexes are faster than their damage control.",
-    "You have the edge. The enemy hull bleeds atmosphere in thin streams. Your neural link tracks each wound, calculates each trajectory. Their pilot is fighting back, but the math is turning against them.",
+    "You have the edge. The enemy hull bleeds atmosphere in thin streams. Your neural link tracks each wound, calculates each trajectory. Their pilot is fighting back, but the math is turning against them."
   ],
-  enemyAhead: [
+  "enemyAhead": [
     "The enemy reads you like data—each maneuver countered, each volley answered with precision. Your damage mounts. The neural overlay dims with each hit, recalculating odds that keep getting worse. You need to change the equation before the machine in your skull decides you're already dead.",
     "They're ahead. Your ship shakes with each impact, damage warnings stacking in your peripheral vision. The combat wetware keeps suggesting you eject. You ignore it. There's nowhere to go out here. Just the black, and the cold, and the quiet hum of a machine that wants to keep you alive more than you want to keep fighting.",
-    "You're falling behind. The enemy's fire is disciplined, methodical—augmented accuracy, machine patience. Your biosystems strain under the sustained damage. The backup implant hums in the back of your skull, waiting. You push it from your mind.",
-  ],
-};
-
-export const getRandomMessage = (messageType, usedMessages) => {
-  const pool = messages[messageType] || [];
-  const available = pool.filter((msg) => !usedMessages.includes(msg));
-
-  if (available.length === 0) {
-    // If all messages used, reset and pick random
-    return pool[Math.floor(Math.random() * pool.length)];
-  }
-
-  return available[Math.floor(Math.random() * available.length)];
-};
+    "You're falling behind. The enemy's fire is disciplined, methodical—augmented accuracy, machine patience. Your biosystems strain under the sustained damage. The backup implant hums in the back of your skull, waiting. You push it from your mind."
+  ]
+}

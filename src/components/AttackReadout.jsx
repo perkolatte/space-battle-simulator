@@ -22,7 +22,13 @@ function AttackReadout({ messages }) {
   const visible = messages.slice(-6);
 
   return (
-    <div className="attack-readout" ref={scrollRef}>
+    <div
+      className="attack-readout"
+      ref={scrollRef}
+      role="log"
+      aria-live="polite"
+      aria-atomic="false"
+    >
       {visible.map((msg, index) => {
         const age = visible.length - 1 - index; // 0 = newest
         const baseClass = getMessageClass(msg);

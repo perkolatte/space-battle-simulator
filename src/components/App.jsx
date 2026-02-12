@@ -5,7 +5,7 @@ import FiringControl from "./FiringControl.jsx";
 import calcDamage from "../utils/calcDamage.js";
 import GameState from "./GameState.jsx";
 import AttackReadout from "./AttackReadout.jsx";
-import { getRandomMessage } from "../utils/gameMessages.js";
+import { getRandomMessage } from "../utils/getRandomMessage.js";
 
 function App() {
   const [playerHealth, setPlayerHealth] = useState(100);

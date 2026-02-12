@@ -6,9 +6,15 @@ function Ship({ name, health, status, isEnemy }) {
     <>
       <div className="ship-name">{name}</div>
       <div className="ship-health">{health} </div>
-      <div className={isEnemy ? "enemy-emoji ship-emoji" : "ship-emoji"}>
+      <div
+        className={isEnemy ? "enemy-emoji ship-emoji" : "ship-emoji"}
+        aria-hidden="true"
+      >
         {statusEmoji}
       </div>
+      <span className="sr-only">
+        {health > 0 ? "Operational" : "Destroyed"}
+      </span>
     </>
   );
 }
