@@ -61,6 +61,7 @@
   font-family: "Courier New", monospace;
   font-size: 1.2rem;
   font-weight: bold;
+  transition: color 300ms ease;
 }
 
 .player-section .ship-health {
