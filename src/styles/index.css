@@ -28,6 +28,7 @@ body {
   min-height: 100vh;
   margin: 0;
   place-items: center;
+  justify-content: center;
 }
 
 h1 {

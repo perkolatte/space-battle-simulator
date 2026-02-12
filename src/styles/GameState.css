@@ -1,0 +1,8 @@
+.game-status {
+  height: 200px;
+  line-height: 1.6;
+  color: #fff;
+  letter-spacing: 0.02em;
+  font-family: "Courier New", monospace;
+  font-size: 0.95rem;
+}

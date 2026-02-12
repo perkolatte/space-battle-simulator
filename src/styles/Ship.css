@@ -1,0 +1,91 @@
+.battle-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 900px;
+  box-sizing: border-box;
+  margin-top: 2em;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.player-section {
+  text-align: left;
+}
+
+.enemy-section {
+  text-align: right;
+}
+
+.center-section {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.restart-btn {
+  margin: 2em 0;
+  border-color: #00ff00;
+  color: #00ff00;
+}
+
+.restart-btn:hover {
+  border-color: #00ffff;
+  box-shadow: 0 0 20px rgba(0, 255, 255, 0.5);
+  transform: scale(1.05);
+}
+
+.ship-name {
+  margin-bottom: 0.5rem;
+  font-family: "Courier New", monospace;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.player-section .ship-name {
+  color: #00ff00;
+}
+
+.enemy-section .ship-name {
+  color: #ffaa00;
+}
+
+.ship-health {
+  font-family: "Courier New", monospace;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.player-section .ship-health {
+  color: #00ff00;
+}
+
+.enemy-section .ship-health {
+  color: #ffaa00;
+}
+.ship-emoji {
+  line-height: 1;
+  font-size: 6rem; /* Try 6rem or higher for very large emojis */
+}
+
+.enemy-emoji {
+  display: inline-block;
+  transform: scale(-1, 1);
+}
+.game-message {
+  display: flex;
+  overflow-y: auto;
+  align-items: flex-start;
+  justify-content: center;
+  width: 100%;
+  max-width: 900px;
+  height: 170px;
+  box-sizing: border-box;
+  padding: 1.5rem;
+  margin: 2em auto 0;
+  border: 2px solid #00ff00;
+  border-radius: 0px;
+  scrollbar-width: none;
+}

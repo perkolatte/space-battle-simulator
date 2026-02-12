@@ -1,0 +1,14 @@
+.firing-control {
+  color: #ffaa00 !important;
+  border-color: #ffaa00 !important;
+}
+
+.firing-control:hover {
+  border-color: #00ffff !important;
+  box-shadow: 0 0 20px rgba(0, 255, 255, 0.5) !important;
+  transform: scale(1.05) !important;
+}
+
+.firing-control:active {
+  transform: scale(0.95) !important;
+}
