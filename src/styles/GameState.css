@@ -6,3 +6,18 @@
   font-family: "Courier New", monospace;
   font-size: 0.95rem;
 }
+
+@keyframes gs-fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.game-status.fade-in {
+  animation: gs-fade-in 300ms ease forwards;
+}
