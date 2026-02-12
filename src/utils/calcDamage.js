@@ -3,12 +3,12 @@ function calcDamage(playerHealth, enemyHealth) {
   const baseMiss = 0.5;
   // Maximum amount the miss chance can be reduced as a ship gets damaged.
   // At 0 HP this will reduce miss by `additionalMax` (making hits much more likely).
-  const additionalMax = 0.45;
+  const additionalMax = 0.1;
 
   // miss chance should depend on both the shooter's health and the target's health.
   // - A damaged target is easier to hit (reduces miss).
   // - A damaged shooter is worse at aiming (increases miss).
-  const shooterPenaltyMax = 0.35; // how much miss increases when shooter is at 0 HP
+  const shooterPenaltyMax = 0.05; // how much miss increases when shooter is at 0 HP
 
   function missChanceFor(shooterHealth, targetHealth) {
     const s = Math.min(Math.max(shooterHealth, 0), 100);
